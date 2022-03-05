@@ -1,0 +1,101 @@
+body {
+    background-color: #401a50;
+}
+
+.background__header {
+    background-color: #2a1235;
+}
+
+.text-box {
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid #333333;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    color: #401a50;
+    margin-right: 2px;
+}
+
+.text-box:last-child,
+.letter-attempt-box:last-child {
+    margin-right: 0;
+}
+
+.letter-attempt-box {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid #2a1235;
+    background-color: black;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    color: #401a50;
+    margin-right: 6px;
+    line-height: 4rem;
+}
+.correct-position-letter {
+    background-color: #6fff6f !important;
+}
+.has-letter {
+    background-color: #f0ff6f;
+}
+
+.attempt-section > div:first-child {
+    margin-top: 0 !important;
+}
+
+header > input {
+    background: transparent;
+    color: white;
+    font-family: fantasy;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    width: 80px;
+    height: 36px;
+}
+
+.custom-btn {
+    outline: none;
+    padding: 6px 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background: #5d1b78;
+    color: #fff;
+    z-index: 1;
+    border: none;
+    border-radius: 5px;
+}
+
+header button:active {
+    top: 2px;
+}
+ 
+
+.congratulations-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.congratulations-section img {
+    width: 16rem;
+    margin-bottom: 3rem;
+}
+
+.congratulations-section p {
+    font-size: 24px;
+    font-family: fantasy;
+}
